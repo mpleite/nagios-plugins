@@ -23,3 +23,21 @@ The main goal is to provide **lightweight**, **reliable**, and **easy-to-maintai
 ---
 
 ## 📂 Repository Structure
+
+/
+├── plugins/          # Ready-to-use plugins
+├── templates/        # Base templates for new plugins
+├── utils/            # Helper scripts
+├── docs/             # Detailed documentation
+└── examples/         # Configuration examples
+
+
+
+## 🚀 How to Use
+
+
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/nagios-remote-plugins.git
+
+# Make scripts executable
+chmod +x plugins/*.sh plugins/*.py
