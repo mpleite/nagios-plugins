@@ -30,7 +30,7 @@ To keep the repository organized and the plugins reliable, please follow these g
 
 ### 1. Plugin Output
 All plugins must follow the standard Nagios output format:
-`STATUS: Short description | performance_data=value;warn;crit;min;max`
+`STATUS: Short description | performance_data=value;warn;crit;min;max`  (Performance data optional)
 
 ### 2. Exit Codes
 Ensure your plugin returns the correct exit codes:
