@@ -15,50 +15,64 @@ This repository contains plugins, scripts, and tools I created or adapted for us
 The main goal is to provide **lightweight**, **reliable**, and **easy-to-maintain** plugins for real-world production scenarios.
 
 ### Key Objectives:
-- Simplify the creation and adaptation of remote plugins
-- Standardize output and performance
-- Support multiple remote delivery methods (NRDP, NRDS, etc.)
-- Help other Nagios administrators
+* **Simplify** the creation and adaptation of remote plugins.
+* **Standardize** output and performance data.
+* **Support** multiple remote delivery methods (NRDP, NRDS, etc.).
+* **Help** other Nagios administrators.
 
 ---
 
 ## 📂 Repository Structure
 
+```text
 /
-├── plugins/          # Ready-to-use plugins
-├── templates/        # Base templates for new plugins
-├── utils/            # Helper scripts
-├── docs/             # Detailed documentation
-└── examples/         # Configuration examples
+├── plugins/      # Ready-to-use plugins
+├── templates/    # Base templates for new plugins
+├── utils/        # Helper scripts
+├── docs/         # Detailed documentation
+└── examples/     # Configuration examples
+```
 
 ---
 
 ## 🚀 How to Use
 
-```bash
-# Clone the repository
-git clone https://github.com/mpleite/nagios-plugins.git
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mpleite/nagios-plugins.git
+   ```
 
-# Make scripts executable
-chmod +x plugins/*.sh plugins/*.py
+2. **Make scripts executable:**
+   ```bash
+   chmod +x plugins/*.sh plugins/*.py
+   ```
 
-Every plugin includes in its header:Description
-Accepted parameters
-Usage examples
-Compatibility (NRDP / NRDS)
-
- TechnologiesBash
-Python 3
-Perl (when needed)
-NRDP / NRDS
-Nagios Core / Icinga 2
-
- ContributingFeel free to:Suggest new plugins
-Report bugs
-Submit improvements
-
-Please read the CONTRIBUTING.md file for more details.Made with  by a Nagios addict
+### Plugin Standards
+Every plugin includes in its header:
+* **Description:** What the plugin does.
+* **Parameters:** Accepted arguments.
+* **Usage examples:** How to run it.
+* **Compatibility:** (NRDP / NRDS / NRPE).
 
 ---
-cheiro para download novamente.
 
+## 🛠️ Technologies
+* **Bash** & **Python 3**
+* **Perl** (legacy support when needed)
+* **NRDP / NRDS** protocols
+* **Nagios Core / Icinga 2 / Naemon**
+
+---
+
+## 🤝 Contributing
+
+Feel free to:
+* Suggest new plugins.
+* Report bugs.
+* Submit improvements via Pull Request.
+
+Please read the `CONTRIBUTING.md` file for more details.
+
+---
+
+**Made with ❤️ by a Nagios addict.**
