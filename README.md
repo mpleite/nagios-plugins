@@ -1,4 +1,4 @@
-# Nagios Remote Plugins Collection 🛠️
+# Nagios Plugins Collection 🛠️
 
 ![Nagios](https://img.shields.io/badge/Nagios-FF0000?style=for-the-badge&logo=nagios&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
