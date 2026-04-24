@@ -1,4 +1,4 @@
-# Nagios Plugins Collection 🛠️
+# Nagios Remote Plugins Collection 🛠️
 
 ![Nagios](https://img.shields.io/badge/Nagios-FF0000?style=for-the-badge&logo=nagios&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
@@ -31,13 +31,34 @@ The main goal is to provide **lightweight**, **reliable**, and **easy-to-maintai
 ├── docs/             # Detailed documentation
 └── examples/         # Configuration examples
 
-
+---
 
 ## 🚀 How to Use
 
-
+```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/nagios-remote-plugins.git
+git clone https://github.com/mpleite/nagios-plugins.git
 
 # Make scripts executable
 chmod +x plugins/*.sh plugins/*.py
+
+Every plugin includes in its header:Description
+Accepted parameters
+Usage examples
+Compatibility (NRDP / NRDS)
+
+ TechnologiesBash
+Python 3
+Perl (when needed)
+NRDP / NRDS
+Nagios Core / Icinga 2
+
+ ContributingFeel free to:Suggest new plugins
+Report bugs
+Submit improvements
+
+Please read the CONTRIBUTING.md file for more details.Made with  by a Nagios addict
+
+---
+cheiro para download novamente.
+
