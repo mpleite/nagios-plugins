@@ -58,6 +58,7 @@ Every plugin includes in its header:
 
 ## 🛠️ Technologies
 * **Bash** & **Python 3**
+* * **Powershell** & **cmd**
 * **Perl** (legacy support when needed)
 * **NRDP / NRDS** protocols
 * **Nagios Core / Icinga 2 / Naemon**
